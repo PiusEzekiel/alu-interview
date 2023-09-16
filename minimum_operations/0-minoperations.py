@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+"""
+a method called minOperations(n) that calculates the fewest number of operations needed to 
+result in exactly n H characters in a text file.
+"""
 def minOperations(n):
     if n <= 1:
         return 0  # If n is less than or equal to 1, no operations are needed, so return 0
