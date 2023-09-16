@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def minOperations(n):
     if n <= 1:
         return 0  # If n is less than or equal to 1, no operations are needed, so return 0
